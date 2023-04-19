@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  color: #000000;
+  background-color: #ffffff;
+  color: #3d3e40;
+  font-family: 'Epilogue', sans-serif;
+}
+.tracking{
+  letter-spacing: 3px;
+}
+
+.flex-gap {
+  display: flex;
+  --gap: 2rem; /* Cambiar el valor según lo necesario */
+  gap: var(--gap);
+}
+.border{
+  border: 1px solid red;
+}
+.rotating-div {
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.max-w-900{
+  max-width: 900px;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.presentacion{
+  max-width: 400px;
+}
