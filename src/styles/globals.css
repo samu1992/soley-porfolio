@@ -19,9 +19,8 @@ body {
   --gap: 2rem; /* Cambiar el valor según lo necesario */
   gap: var(--gap);
 }
-.border{
-  border: 1px solid red;
-}
+
+
 .rotating-div {
   animation-name: rotate;
   animation-duration: 4s;
@@ -31,7 +30,12 @@ body {
 .max-w-900{
   max-width: 900px;
 }
-
+.hover{
+  transition: all 0.4s;
+}
+.transform:hover{
+  transform: scale(0.9)
+}
 
 @keyframes rotate {
   0% {
@@ -43,4 +47,26 @@ body {
 }
 .presentacion{
   max-width: 400px;
+}
+@media only screen and (max-width: 768px){
+  .navbar--open {
+      display: block;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: top;
+      align-items: top;
+      top: 112px;
+      right: 0px;
+      padding-top: 20px;
+      min-width: 100%;
+      height: 100vh;
+      background-color: #ffffff;
+      z-index: 100;
+      gap: 30px;
+      text-align: center;
+  }
+  .sm-px-4{
+    padding: 35px 25px;
+  }
 }
