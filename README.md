@@ -1,4 +1,4 @@
-![logo](https://github.com/samu1992/PortfolioSoley/blob/master/src/Logito.png)
+![logo](https://github.com/samu1992/soley-porfolio/blob/master/public/images/logo.svg)
 ## Descripcion del Proyecto
 
 Este proyecto se basa en React.js y Next.js, un framework de JavaScript para construir aplicaciones web. Utiliza Next.js para manejar las rutas dentro de la aplicación, lo que permite al usuario navegar de forma sencilla entre las diferentes páginas.
@@ -17,7 +17,7 @@ En cuanto al desarrollo en sí, se utilizó JavaScript como lenguaje principal y
 - JavaScript
 - Flexbox
 
-![gif](https://github.com/samu1992/PortfolioSoley/blob/master/gifPorfolio.gif)
+![gif](https://github.com/samu1992/soley-porfolio/blob/master/public/images/gifPorfolio.gif)
 
 ## Autor 
 - Samuel Carrizo
