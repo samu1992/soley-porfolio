@@ -28,7 +28,7 @@ const About = () => {
                     Soley has a keen eye for details, and she takes pride in her ability to create visually compelling
                     designs that are intuitive, easy to use, and accessible.</p>
             </section>
-            <section className='flex items-center justify-center flex-row gap-8 md:gap-32 w-full lg:w-3/4 mb-20 text-xl my-text-color flex-wrap'>
+            <section className='flex items-center justify-center flex-row gap-8 md:gap-16 w-full lg:w-3/4 mb-20 text-xl my-text-color flex-wrap'>
                 <Image src='/images/Pino.png' alt='error en cargar la foto de mi perro' width={250} height={250} />
                 <Image src='/images/Flores.png' alt='error en cargar imagen de flores' width={250} height={250} />
                 <Image src='/images/Menta.png' alt='error en cargar la foto de mi perro' width={250} height={250} />

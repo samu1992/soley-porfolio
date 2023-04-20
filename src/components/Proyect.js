@@ -19,7 +19,7 @@ const Proyect = () => {
         </section>
         <section  className='flex flex-wrap items-center justify-center gap-24 xl:items-start xl:justify-start lg:items-center lg:justify-center md:items-center md:justify-center'>
         <Card
-        imagenSrc='/images/IMDB.svg'
+        imagenSrc='/images/IMDb.svg'
         titulo='IMDb'
         prototypeSrc='https://www.figma.com/proto/V6IYAAEmjAMT78lkNetwwV/Redise%C3%B1o-IMDb?page-id=933%3A6514&node-id=933%3A6516&viewport=290%2C228%2C0.04&scaling=scale-down&starting-point-node-id=933%3A6516'
         descripcion='A redesign proposal for the IMDb website.'
