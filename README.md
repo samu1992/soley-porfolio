@@ -1,3 +1,35 @@
+![logo](https://github.com/samu1992/PortfolioSoley/blob/master/src/Logito.png)
+## Descripcion del Proyecto
+
+Este proyecto se basa en React.js y Next.js, un framework de JavaScript para construir aplicaciones web. Utiliza Next.js para manejar las rutas dentro de la aplicación, lo que permite al usuario navegar de forma sencilla entre las diferentes páginas.
+
+El diseño de la aplicación fue hecho por Soley Flores, y se enfocó en crear una experiencia de usuario intuitiva y adaptable a cualquier tipo de dispositivo. Se utilizó técnicas de Responsive Design para asegurar que el diseño se adapte de manera efectiva a diferentes tamaños de pantalla.
+
+Para lograr una buena adaptabilidad a diferentes dispositivos, se utilizó CSS Grid y Flexbox para crear un sistema de cuadrícula flexible. Esto permite que el contenido de la aplicación se organice de manera eficiente en diferentes tamaños de pantalla, proporcionando una excelente experiencia de usuario en todos los dispositivos.
+
+En cuanto al desarrollo en sí, se utilizó JavaScript como lenguaje principal y se siguió una metodología de desarrollo basada en componentes, lo que permite una mayor reutilización del código y una mejor organización del proyecto.
+
+## Tecnologías utilizadas
+
+- React.js
+- Next.js
+- CSS Tailwind
+- JavaScript
+- Flexbox
+
+![gif](https://github.com/samu1992/PortfolioSoley/blob/master/gifPorfolio.gif)
+
+## Autor 
+- Samuel Carrizo
+
+## Instalacion
+
+Para instalar este proyecto, primero clona el repositorio en tu máquina local y luego ejecuta el siguiente comando:
+
+- npm install
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
