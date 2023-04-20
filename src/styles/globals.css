@@ -1,25 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap');
 
 
 body {
   color: #000000;
   background-color: #ffffff;
   color: #3d3e40;
-  font-family: 'Epilogue', sans-serif;
 }
-.tracking{
-  letter-spacing: 3px;
-}
+
 
 .flex-gap {
   display: flex;
   --gap: 2rem; /* Cambiar el valor según lo necesario */
   gap: var(--gap);
 }
-
 
 .rotating-div {
   animation-name: rotate;
@@ -56,7 +51,7 @@ body {
       flex-direction: column;
       justify-content: top;
       align-items: top;
-      top: 112px;
+      top: 90px;
       right: 0px;
       padding-top: 20px;
       min-width: 100%;

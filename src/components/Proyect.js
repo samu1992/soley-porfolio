@@ -3,8 +3,8 @@ import Card from './Card';
 
 const Proyect = () => {
   return (
-    <main className="flex items-center justify-center p-24 gap-24 flex-wrap">
-        <section  className='flex flex-wrap items-start justify-start gap-24'>
+    <main className="flex items-center justify-center  p-8 md:p-10 xl:p-14 lg:p-16 xl:p-20 2xl:p-24 gap-24 flex-wrap">
+        <section  className='flex flex-wrap items-center justify-center gap-24 xl:items-start xl:justify-start lg:items-center lg:justify-center md:items-center md:justify-center'>
         <Card
         imagenSrc='/images/Canil.svg'
         titulo='Canil'
@@ -17,7 +17,7 @@ const Proyect = () => {
         descripcion='A mobile app for transportation services with pets.'
         pdfSrc='/images/Petxi.pdf'/>
         </section>
-        <section  className='flex flex-wrap items-start justify-start gap-24'>
+        <section  className='flex flex-wrap items-center justify-center gap-24 xl:items-start xl:justify-start lg:items-center lg:justify-center md:items-center md:justify-center'>
         <Card
         imagenSrc='/images/IMDB.svg'
         titulo='IMDb'

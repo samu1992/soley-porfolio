@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-//import Footer from './Footer';
+import Footer from './Footer';
 
 
 
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <main className='w-full p-0 m-0 h-screen'>
         <NavBar/>
         {children}
-        {/* <Footer/> */}
+        <Footer/>
     </main>
   )
 }

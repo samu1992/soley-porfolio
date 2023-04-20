@@ -27,7 +27,7 @@ const Card = ({ imagenSrc, titulo, descripcion, pdfSrc, prototypeSrc }) => {
             </div>
             <div className="flex items-start justify-start flex-col w-full">
                 <h2 className="text-xl font-bold">{titulo}</h2>
-                {prototypeSrc && <a target='_blank' rel="noreferrer" href={prototypeSrc}>Check prototype ↗</a>}
+                {prototypeSrc && <a className='hover:text-red-200' target='_blank' rel="noreferrer" href={prototypeSrc}>Check prototype ↗</a>}
                 <p className="">{descripcion}</p>
             </div>
             {/* <button onClick={() => setIsPopupOpen(true)}>Open popup</button>
